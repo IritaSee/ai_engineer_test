@@ -4,3 +4,4 @@ matplotlib
 nltk
 wordcloud
 opencv-contrib-python
+Pillow
