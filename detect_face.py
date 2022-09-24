@@ -32,7 +32,7 @@ while (1>0):
      cv2.imshow('Result',image) 
 
     # If 'q' is pressed, close program
-     if 0xFF == ord('q'):
+     if  cv2.waitKey(100) & 0xFF == ord('q') :
         break
 
 
